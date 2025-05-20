@@ -1,5 +1,6 @@
 import React from "react";
 import SktyFleetVideo from "../assets/videoSkyFleet.mp4";
+import CielDeParisVideo from "../assets/VideoCiel_de_paris.mp4";
 
 function Proyects() {
   const proyectos = [
@@ -7,12 +8,12 @@ function Proyects() {
       titulo: "E-commerce Moderno",
       descripcion:
         "Tienda online con carrito, pagos y panel de administración.",
-      video: "https://www.w3schools.com/html/mov_bbb.mp4",
+      video: "https://www.w3schools.com/html/movie.mp4",
     },
     {
       titulo: "Landing Page",
       descripcion: "Landing responsive con CTA y diseño atractivo.",
-      video: "https://www.w3schools.com/html/movie.mp4",
+      video: CielDeParisVideo,
     },
     {
       titulo: "Web Personalizada",
@@ -25,9 +26,11 @@ function Proyects() {
   return (
     <section
       id="proyectos"
-      className="py-20 bg-gradient-to-b from-[#f2f2f2] to-[#f2f2f2]"
+      className="py-20 bg-gradient-to-b from-[#f2f2f2] to-[#f2f2f2] text-[#22366b]"
     >
-      <h2 className="text-4xl font-bold text-center mb-12">Proyectos</h2>
+      <h1 className="text-3xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
+        Proyectos Destacados y Portfolio
+      </h1>
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
         {proyectos.map((proyecto, index) => (
           <div

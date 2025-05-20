@@ -63,9 +63,9 @@ const lenguajes = [
 
 function DetailsLenguaje() {
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-gray-100 text-gray-900">
-      <h2 className="text-4xl md:text-6xl font-extrabold text-center text-gray-900 mb-12">
-        Tecnologías que usamos
+    <section className="py-20 bg-gradient-to-b from-[#f2f2f2] to-[#f2f2f2] text-[#22366b]">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-12">
+        Tecnologías y Herramientas
       </h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">

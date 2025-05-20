@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           to="/"
-          className="text-[#27154f] font-extrabold text-xl hover:text-[#16092f] transition"
+          className="text-[#27154f] font-extrabold text-xl hover:text-[#330b80] transition"
         >
           BrodelcitoDev
         </Link>

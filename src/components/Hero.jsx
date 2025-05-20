@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import ImgHero from "../assets/ImgHero.jpg"; // ajusta la ruta si está en otra carpeta
 
 function Hero() {
   return (
     <section
       className="relative h-screen flex items-center justify-center text-center"
       style={{
-        backgroundImage: "url('/src/assets/ImgHero.jpg')",
+        backgroundImage: `url(${ImgHero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

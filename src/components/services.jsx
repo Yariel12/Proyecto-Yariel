@@ -8,61 +8,53 @@ function Servicios() {
       id="servicios"
       className="py-20 bg-gradient-to-b from-[#f2f2f2] to-[#f2f2f2] text-[#22366b]"
     >
-      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
+      <h1 className="mb-12 text-4xl font-extrabold text-center text-gray-900 md:text-5xl">
         Nuestros Servicios
       </h1>
 
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 px-6">
-        {/* Servicio 1 */}
-        <div className="bg-white/40 backdrop-blur-lg rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500 hover:shadow-2xl flex flex-col justify-between">
+      <div className="grid max-w-6xl gap-10 px-6 mx-auto md:grid-cols-3">
+        <div className="flex flex-col justify-between p-8 transition-transform duration-500 shadow-xl bg-white/40 backdrop-blur-lg rounded-3xl hover:scale-105 hover:shadow-2xl">
           <div>
-            <h3 className="text-2xl font-bold text-orange-500 mb-3">
-              Landing Page
-            </h3>
-            <p className="text-black mb-4">
+            <h3 className="mb-3 text-2xl font-bold ">Landing Page</h3>
+            <p className="mb-4 text-black">
               Ideal para presentar tu producto o servicio de forma efectiva.
             </p>
-            <p className="text-xl font-bold text-black mb-6">RD$3,000</p>
+            <p className="mb-6 text-xl font-bold text-black">RD$3,000</p>
           </div>
           <div className="flex justify-center gap-6 text-4xl text-[#22366b] animate-bounce-slow">
-            <FaReact className="hover:text-blue-500 transition-colors duration-300" />
-            <SiTailwindcss className="hover:text-teal-500 transition-colors duration-300" />
+            <FaReact className="transition-colors duration-300 hover:text-blue-500" />
+            <SiTailwindcss className="transition-colors duration-300 hover:text-teal-500" />
           </div>
         </div>
 
-        {/* Servicio 2 */}
-        <div className="bg-white/40 backdrop-blur-lg rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500 hover:shadow-2xl flex flex-col justify-between">
+        <div className="flex flex-col justify-between p-8 transition-transform duration-500 shadow-xl bg-white/40 backdrop-blur-lg rounded-3xl hover:scale-105 hover:shadow-2xl">
           <div>
-            <h3 className="text-2xl font-bold text-orange-500 mb-3">
-              E-commerce
-            </h3>
-            <p className="text-black mb-4">
+            <h3 className="mb-3 text-2xl font-bold ">E-commerce</h3>
+            <p className="mb-4 text-black">
               Tienda online completa con carrito y sistema de pago.
             </p>
-            <p className="text-xl font-bold text-black mb-6">RD$25,000</p>
+            <p className="mb-6 text-xl font-bold text-black">RD$25,000</p>
           </div>
           <div className="flex justify-center gap-6 text-4xl text-[#22366b] animate-bounce-slow">
-            <FaReact className="hover:text-blue-500 transition-colors duration-300" />
-            <SiTailwindcss className="hover:text-teal-500 transition-colors duration-300" />
-            <FaNodeJs className="hover:text-green-500 transition-colors duration-300" />
+            <FaReact className="transition-colors duration-300 hover:text-blue-500" />
+            <SiTailwindcss className="transition-colors duration-300 hover:text-teal-500" />
+            <FaNodeJs className="transition-colors duration-300 hover:text-green-500" />
           </div>
         </div>
 
         {/* Servicio 3 */}
-        <div className="bg-white/40 backdrop-blur-lg rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500 hover:shadow-2xl flex flex-col justify-between">
+        <div className="flex flex-col justify-between p-8 transition-transform duration-500 shadow-xl bg-white/40 backdrop-blur-lg rounded-3xl hover:scale-105 hover:shadow-2xl">
           <div>
-            <h3 className="text-2xl font-bold text-orange-500 mb-3">
-              Web Personalizada
-            </h3>
-            <p className="text-black mb-4">
+            <h3 className="mb-3 text-2xl font-bold ">Web Personalizada</h3>
+            <p className="mb-4 text-black">
               Diseño y desarrollo a la medida de tus necesidades.
             </p>
-            <p className="text-xl font-bold text-black mb-6">Desde RD$5,000</p>
+            <p className="mb-6 text-xl font-bold text-black">Desde RD$5,000</p>
           </div>
           <div className="flex justify-center gap-6 text-4xl text-[#22366b] animate-bounce-slow">
-            <FaReact className="hover:text-blue-500 transition-colors duration-300" />
-            <SiTailwindcss className="hover:text-teal-500 transition-colors duration-300" />
-            <FaNodeJs className="hover:text-green-500 transition-colors duration-300" />
+            <FaReact className="transition-colors duration-300 hover:text-blue-500" />
+            <SiTailwindcss className="transition-colors duration-300 hover:text-teal-500" />
+            <FaNodeJs className="transition-colors duration-300 hover:text-green-500" />
           </div>
         </div>
       </div>

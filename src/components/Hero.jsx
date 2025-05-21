@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ImgHero from "../assets/ImgHero.jpg"; // ajusta la ruta si está en otra carpeta
+import ImgHero from "../assets/ImgHero.jpg";
 
 function Hero() {
   return (

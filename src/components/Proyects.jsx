@@ -1,6 +1,7 @@
 import React from "react";
 import SktyFleetVideo from "../assets/videoSkyFleet.mp4";
 import CielDeParisVideo from "../assets/VideoCiel_de_paris.mp4";
+import TechSparkVideo from "../assets/TechSpark video.mp4";
 
 function Proyects() {
   const proyectos = [
@@ -8,7 +9,7 @@ function Proyects() {
       titulo: "E-commerce Moderno",
       descripcion:
         "Tienda online con carrito, pagos y panel de administración.",
-      video: "https://www.w3schools.com/html/movie.mp4",
+      video: TechSparkVideo,
     },
     {
       titulo: "Landing Page",
@@ -28,14 +29,14 @@ function Proyects() {
       id="proyectos"
       className="py-20 bg-gradient-to-b from-[#f2f2f2] to-[#f2f2f2] text-[#22366b]"
     >
-      <h1 className="text-3xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
+      <h1 className="mb-12 text-3xl font-extrabold text-center text-gray-900 md:text-5xl">
         Proyectos Destacados y Portfolio
       </h1>
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+      <div className="grid max-w-6xl gap-8 px-6 mx-auto md:grid-cols-3">
         {proyectos.map((proyecto, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="overflow-hidden transition-transform duration-300 bg-white shadow-lg rounded-2xl hover:scale-105"
           >
             <video
               src={proyecto.video}
@@ -43,10 +44,10 @@ function Proyects() {
               loop
               muted
               playsInline
-              className="w-full h-48 object-cover"
+              className="object-cover w-full h-48"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-semibold text-orange-500 mb-2">
+              <h3 className="mb-2 text-2xl font-semibold text-orange-500">
                 {proyecto.titulo}
               </h3>
               <p className="text-gray-700">{proyecto.descripcion}</p>

@@ -42,7 +42,6 @@ function Servicios() {
           </div>
         </div>
 
-        {/* Servicio 3 */}
         <div className="flex flex-col justify-between p-8 transition-transform duration-500 shadow-xl bg-white/40 backdrop-blur-lg rounded-3xl hover:scale-105 hover:shadow-2xl">
           <div>
             <h3 className="mb-3 text-2xl font-bold ">Web Personalizada</h3>

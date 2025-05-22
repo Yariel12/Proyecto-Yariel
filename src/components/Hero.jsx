@@ -4,7 +4,7 @@ import ImgHero from "../assets/ImgHero.jpg";
 function Hero() {
   return (
     <section
-      className="relative h-screen flex items-center justify-center text-center"
+      className="relative flex items-center justify-center h-screen text-center"
       style={{
         backgroundImage: `url(${ImgHero})`,
         backgroundSize: "cover",
@@ -14,10 +14,10 @@ function Hero() {
       <div className="absolute inset-0 bg-white bg-opacity-30 backdrop-blur-sm"></div>
 
       <div className="relative max-w-3xl p-6">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6">
-          Construye tu futuro digital con BrodelcitoDev
+        <h1 className="mb-6 text-4xl font-extrabold text-gray-900 md:text-6xl">
+          Construye tu futuro digital con NovaDigital
         </h1>
-        <p className="text-gray-700 text-lg md:text-xl mb-8">
+        <p className="mb-8 text-lg text-gray-700 md:text-xl">
           Aplicaciones web a tu medida, modernas y con estilo dominicano.
         </p>
         <Link

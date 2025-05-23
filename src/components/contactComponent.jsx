@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import baseURL from "../api/axios";
+// import baseURL from "../api/axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -19,7 +19,13 @@ function ContactComponent() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    toast.info(
+      "📞 Esta opción no está disponible por el momento. Escríbeme al WhatsApp: 849-401-8312"
+    );
+    return;
 
+    // Si en el futuro quieres habilitar el envío, puedes quitar el return de arriba y descomentar esto 👇
+    /*
     try {
       const res = await baseURL.post("/messages/create", formData);
       if (res.data.ok) {
@@ -32,6 +38,7 @@ function ContactComponent() {
       console.error("Error al enviar el mensaje:", error);
       toast.error("❌ Error del servidor. Intenta más tarde.");
     }
+    */
   };
 
   return (
@@ -48,6 +55,12 @@ function ContactComponent() {
           <h2 className="mb-6 text-3xl font-bold text-center text-gray-900">
             NovaDigital
           </h2>
+
+          <p className="mb-6 text-lg font-medium text-center text-red-600">
+            ⚠️ Esta opción de contacto no está disponible por el momento. Puedes
+            escribirme directamente por WhatsApp al{" "}
+            <span className="font-bold">849-401-8312</span>.
+          </p>
 
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
@@ -117,7 +130,6 @@ function ContactComponent() {
         </div>
       </div>
 
-      {/* Toastify container aquí 👇 */}
       <ToastContainer position="top-right" autoClose={3000} />
     </section>
   );

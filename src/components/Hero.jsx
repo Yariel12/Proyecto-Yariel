@@ -21,7 +21,7 @@ function Hero() {
           Aplicaciones web a tu medida, modernas y con estilo dominicano.
         </p>
         <Link
-          to={"/contacto"}
+          to={"/Contact"}
           className="inline-block bg-[#27154f] text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-[#16092f] transition"
         >
           Contáctame
